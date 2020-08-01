@@ -1,0 +1,28 @@
+.main-form {
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: salmon;
+  font-size: 1.5rem;
+
+  padding: 20px;
+  text-align: center;
+}
+
+label {
+  padding: 10px;
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+button {
+  font-size: 1.5rem;
+}
+input {
+  font-size: 1.5rem;
+}
